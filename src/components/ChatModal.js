@@ -50,16 +50,16 @@ export default function ChatModal() {
                       />
                       <div className="flex flex-col gap-4 my-10">
                         <h2 className="text-center text-2xl text-blue-500">
-                          KASBASS LIVE SUPPORT
+                          SALMAN AND AYAN LIVE SUPPORT
                         </h2>
                         <p className="text-sm text-center">
-                          Welcome to Kasbass Live Support. Please select the
+                          Welcome to Salman and Ayan Live Support. Please select the
                           communication method that is most convenient for you.
                         </p>
                         <div className="flex justify-center items-center bg-gray-200 p-10 my-3">
                           <div className="grid grid-cols-2 gap-10">
                             <div>
-                              <a href="tel:+2348147603570" className="flex flex-col justify-center items-center    gap-3">
+                              <a href="tel:+923224425310" className="flex flex-col justify-center items-center gap-3">
                                 <AiOutlineMessage
                                 className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
                                 bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
@@ -68,32 +68,13 @@ export default function ChatModal() {
                               <span className="text-gray-700">Live Call</span>
                               </a>
                             </div>
-                            <div>
-                              <a href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL" className="flex flex-col justify-center items-center gap-3">
-                                <FaFacebookMessenger
-                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
-                                bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
-                                onClick={() => setOpen(!open)}
-                              />
-                              <span className="text-gray-700">Facebook</span>
-                              </a>
-                            </div>
                             <div className="flex flex-col justify-center items-center gap-3">
-                              <IoLogoWhatsapp
-                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
-                                bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
-                                onClick={() => setOpen(!open)}
-                              />
-                              <span className="text-gray-700">Whatsapp</span>
-                            </div>
-                            <div>
-                              <a href=" https://www.instagram.com/invites/contact/?i=mi29glvkp6z6&utm_content=gwkaofn" target="_blank" rel="noreferrer" className="flex flex-col justify-center items-center gap-3">
-                              <FaInstagram
-                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
-                                bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
-                                onClick={() => setOpen(!open)}
-                              />
-                              <span className="text-gray-700">Instagram</span>
+                              <a href="https://wa.me/923224425310" target="_blank" rel="noreferrer" className="flex flex-col justify-center items-center gap-3">
+                                <IoLogoWhatsapp
+                                  className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
+                                  bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
+                                />
+                                <span className="text-gray-700">Whatsapp</span>
                               </a>
                             </div>
                           </div>

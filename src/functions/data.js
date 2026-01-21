@@ -3,8 +3,8 @@ import { Images } from './overview'
 export const data = {
     rows: [
         {
-            title: "Tell me about kasbass enterprises?",
-            content: `Kasbass mission is to provide the highest quality
+            title: "Tell me about Salman and Ayan Enterprises?",
+            content: `Salman and Ayan Plumbing mission is to provide the highest quality
             plumbing services to our customers. We specialize in installation, repair,
             and maintenance of all types of plumbing systems, as well as hot water heater
             services, sewer line repairs, and drain cleaning. Our team strives to deliver

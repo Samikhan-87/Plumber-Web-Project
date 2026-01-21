@@ -30,8 +30,19 @@ const Signup = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-700 to-blue-900 flex justify-center items-center px-4">
-      <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-md space-y-6">
-        <h2 className="text-2xl font-bold text-center text-blue-700">Create an Account</h2>
+      <div className="bg-white p-8 rounded-xl shadow-md w-full max-w-md space-y-6 relative">
+        {/* Back Button */}
+        <button
+          onClick={() => navigate(-1)}
+          className="absolute top-4 left-4 flex items-center gap-1 text-gray-500 hover:text-blue-600 transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+          </svg>
+          <span className="text-sm font-medium">Back</span>
+        </button>
+        
+        <h2 className="text-2xl font-bold text-center text-blue-700 pt-4">Create an Account</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"

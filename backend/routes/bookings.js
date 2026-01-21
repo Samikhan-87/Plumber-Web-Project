@@ -5,14 +5,21 @@ const jwt = require('jsonwebtoken');
 
 // Middleware to verify token
 const verify = (req, res, next) => {
-  const token = req.headers.authorization;
-  if (!token) return res.status(401).json({ message: "No token provided" });
+  const authHeader = req.headers.authorization;
+  if (!authHeader) return res.status(401).json({ message: "No token provided" });
+
+  // Extract token from "Bearer <token>" format
+  const token = authHeader.startsWith('Bearer ') ? authHeader.slice(7) : authHeader;
 
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.userId = decoded.id;
     next();
   } catch (err) {
+    console.log('Token verification error:', err.message);
+    if (err.name === 'TokenExpiredError') {
+      return res.status(401).json({ message: "Session expired. Please login again." });
+    }
     res.status(403).json({ message: "Invalid token" });
   }
 };

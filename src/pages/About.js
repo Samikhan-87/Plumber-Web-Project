@@ -12,7 +12,7 @@ const About = () => {
         <div>
           <h1 className="font-bold text-[28px] text-center">Our Mission</h1>
           <p className="text-[20px] text-center">
-            kasbass mission is to provide high-quality, reliable, and
+            Salman and Ayan Plumbing mission is to provide high-quality, reliable, and
             cost-effective services to customers in their repair and
             installation needs. Our mission is to be a leader in the industry,
             setting the standard for safety, innovation, customer service, and
@@ -25,7 +25,7 @@ const About = () => {
         <div>
           <h1 className="font-bold text-[28px] text-center">Our Story</h1>
           <p className="text-[20px] text-center">
-            Kasbass was founded in 2019 with the goal of becoming the premier
+            Salman and Ayan Plumbing was founded in 2019 with the goal of becoming the premier
             provider of plumbing services in the area. The company strives to
             provide honest and professional service while delivering quality
             craftsmanship, reasonable prices, and superior customer service.

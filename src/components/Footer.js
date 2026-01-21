@@ -62,19 +62,10 @@ const Footer = () => {
       md:border-bottom-gray-200 p-3 connect px-6'>
         <h2 className='font-bold text-white text-[20px]'>Follow Us</h2>
         <div className='flex space-x-3'>
-          <a href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL"
-            target="_blank" rel="noreferrer" >
-            <img className="circle" src={facebook} alt="facebook logo" />
-          </a>
-          <a href="https://mobile.twitter.com/GasaliAbass" target="_blank" rel="noreferrer">
-            <img className="circle" src={twitter} alt="twitter logo" />
-          </a>
-          <a href=" https://www.instagram.com/invites/contact/?i=mi29glvkp6z6&utm_content=gwkaofn" target="_blank" rel="noreferrer">
-            <img className="circle" src={google} alt="google logo" />
-          </a>
-          <a href="https://www.linkedin.com/in/abass-kasali-369911247" target="_blank" rel="noreferrer">
-            <img className="circle" src={linkedin} alt="linkedin logo" />
-          </a>
+          <img className="circle" src={facebook} alt="facebook logo" />
+          <img className="circle" src={twitter} alt="twitter logo" />
+          <img className="circle" src={google} alt="google logo" />
+          <img className="circle" src={linkedin} alt="linkedin logo" />
         </div>
       </div>
     </section>

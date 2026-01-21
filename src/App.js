@@ -21,9 +21,9 @@ function App() {
     <>
       <Helmet>
         <title>Salman and Ayan Enterprises | Salman and Ayan Plumbing Services</title>
-        <meta name="description" content="Kasbass Plumbing Services offers expert plumbing services in Lagos, Nigeria. Contact us today for a free quote!" />
-        <meta name="keywords" content="plumbing services, Lagos, Nigeria, Kasbass Plumbing Services |have knowledgeable and experienced technicians, offer competitive pricing, and use high-quality materials. |Experience the Best Plumbing Services in Nigeria with Be Plumbing Services!" />
-        <meta name="author" content="Kasbass Plumbing Services" />
+        <meta name="description" content="Salman and Ayan Plumbing Services offers expert plumbing services in Lahore. Contact us today for a free quote!" />
+        <meta name="keywords" content="plumbing services, Lahore, Salman and Ayan Plumbing Services |have knowledgeable and experienced technicians, offer competitive pricing, and use high-quality materials. |Experience the Best Plumbing Services in Lahore with Salman and Ayan Plumbing Services!" />
+        <meta name="author" content="Salman and Ayan Plumbing Services" />
       </Helmet>
        <div className="box-sizing:border-box bg-gray-100">
       <Routes>
